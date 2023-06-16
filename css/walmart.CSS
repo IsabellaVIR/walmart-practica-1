@@ -1,0 +1,66 @@
+/*reglas globales del sitito*/
+body{
+    margin: 0;
+}
+/*header*/
+header {
+    height: 48px;
+    padding: 20px 18px;
+    background: #0071dc
+}
+
+#divheader{
+
+    height: 32px;
+    padding: 4px 24px;
+    border-top: solid white 1px;
+    background: #0071dc;
+}
+.btnHeader{
+    padding: 14px 15px;
+    border: none;
+    background: transparent;
+    border-radius: 25px;
+    color: white ;
+    font-weight: bold;
+}
+.btnHeader:hover{
+    background-color: rgb(6, 72, 134);
+
+}
+#inputHeader{
+    width: 40%;
+    height: 80%;
+    border-radius: 25px;
+    border: none;
+}
+/*fin header*/
+#direccion{
+    width: 49%;
+    display: inline-block;
+    color: white;
+    position: relative;
+    top: -10px
+    
+}
+#direccion >span:first-of-type{
+    font-weight: bold;
+}
+
+#navheader{
+    width: 49%;
+    display: inline-block;
+
+}
+#navheader ul {
+    position: relative;
+   top: -10px;
+
+}
+#navheader ul li{
+    display: inline-block;
+    list-style: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 8px;
+}
